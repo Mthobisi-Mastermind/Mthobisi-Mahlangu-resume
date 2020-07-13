@@ -1,55 +1,18 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<Style> 
-			body{background-color:LavenderBlush}
-			h1{text-align:center}
-			h2{text-align:center}
-			h4{text-align:center}
-			p{text-align:half}
-							
-			.sidenav {
-				  width: 25%;
- 					 position: fixed;
- 				 z-index: 1;
- 				 top: 20px;
- 				 right: 0;
- 				 background: #eee;
- 				 background-color:CadetBlue;
- 				 overflow-x: hidden;
- 				 padding: 8px 0;
-					}
-
-					.sidenav a {
- 				 padding: 6px 8px 6px 16px;
- 				 text-decoration: none;
- 				 font-size: 25px;
- 				 color: Aqua;
- 				 display: block;
-					}
-
-				.sidenav a:hover {
-				  color: #064579;
-					}
-				}
-
-				@media screen and (max-height: 450px) {
-				  .sidenav {padding-top: 15px;}
-  				.sidenav a {font-size: 18px;}
-				}
-	
-		</Style>
-
 		<meta charset="ISO-8859-1">
-		<title>Mthobisi Mahlangu</title>
+		<link rel = stylesheet href = "CSS_styles.css">
+		<link rel = stylesheet href = "collapsible.css">
+		<title>Personal web page</title>
+
 	</head>
 	
 	<body>
 		
-		<h1>Mthobisi Mahlangu</h1>
 		
 		<div class="sidenav">
-			<h3>MENU</h3>
+			<h3 style = "text-align:center">MENU</h3>
 				<ul>
   					<li><a href="#myProfile">My Profile</a></li>
   					<li><a href="#contactDetails">Contact and Details</a></li>
@@ -59,49 +22,63 @@
  		 			<li><a href="#technologiesToolsTechniques">Technologies, Tools and Techniques</a></li>
  		 		
  		 		</ul>
-		</div>		
+		</div>
+				
 		<br>
+	
+		<div class = "backgroundImage">
 		
-		<!-- ================= PROFILE ===================== -->
-		<div Style = "background-color:LavenderBlush"> <h2 id = "myProfile" >My Profile</h2>
-		
-			<h4>Software Engineer | Electrical Technician at PG Bison <br> 
-				  <img src = "mtho1.jpg" alt = "Image" height ="180" width ="180"> 
-		    </h4>
-		    	
+			<h1 style ="color:white">Mthobisi Mahlangu</h1>
+			
+			<h3 style = "text-align:center;color:white">
+				  Software Engineer | Electrical Technician at PG Bison <br> 
+				  <img src = "mtho1.jpg" alt = "Image" height ="410" width ="410"> 
+		    </h3>
+		    
+		    <!-- ================= PROFILE ===================== -->
+		    <h2 id = "myProfile" >My Profile</h2>
 		    	
 			<!-- ---------------------- About me ----------------- -->
-			<h3>About me</h3>
-		
-				Hello! Welcome to my web page. Mthobisi is <br>
-				a Junior Java Developer and Python Programmer,<br>
-				 also qualified as an Electrical Technician <br>
-				currently working for PG Bison. For close to 5 years,<br>
-				I have worked with PLCs such as Siemens, Mitsubishi, <br>Schneider, 
-				Delta and etc.
-				<br><br>
-				Up until recently when I decided to follow my <br>
-				passion which is being the "mastermind" behind the Software.<br>
-				I enrolled for a Software Engineering Bootcamp <br>
-				with Hyperion Development in which we covered Python and Java.<br>(
-				Java OOP, MySQL, Big O Notation,HTML basics and many other <br>
-				programming techniques ).
+			<button class="collapsible">About me</button>
+			
+        	<div class="content">	
+				<p>
+					Hello! Welcome to my web page. Mthobisi is <br>
+					a Java Developer and Python Programmer,<br>
+				    also qualified as an Electrical Technician <br>
+					currently working for PG Bison. For close to 5 years,<br>
+					I have worked with PLCs such as Siemens, Mitsubishi, <br>Schneider, 
+					Delta and etc.
+					<br><br>
+					Up until recently when I decided to follow my <br>
+					passion which is being the "mastermind" behind the Software.<br>
+					I enrolled for a Software Engineering Bootcamp <br>
+					with Hyperion Development in which we covered Python and Java.<br>(
+					Java OOP, MySQL, Big O Notation,HTML,CSS,Bootstrap and many other <br>
+					programming techniques ).
 		 
-				<br><br>
+					<br><br>
 		  
-		 		I love structure and order, and I also stand for quality.<br>
-		 		I spend majority of my time learning new programming skills<br>
-		 		and techniques so to enhance my logical and technical approach<br>
-		 		in the tech industry. I also prefer spending much time on <br>
-		 		fixing little details and optimizing software projects. <br>
-		 		I like working in a team, you'll learn faster and much more.<br>
-		 		As the saying goes: 'two heads  are better than one'. From <br>
-		 		the learned techniques I have developed real life projects.
-		 		<a href ="#myProjects">go to projects</a>
-		
-		
+		 			I love structure and order, and I also stand for quality.<br>
+		 			I spend majority of my time learning new programming skills<br>
+		 			and techniques so to enhance my logical and technical approach<br>
+		 			in the tech industry. I also prefer spending much time on <br>
+		 			fixing little details and optimizing software projects. <br>
+		 			I like working in a team, you'll learn faster and much more.<br>
+		 			As the saying goes: 'two heads  are better than one'. From <br>
+		 			the learned techniques I have developed real life projects.
+		 			<a href ="#myProjects">go to projects</a>
+		 		
+		 		</p>
+			</div>
+			
 			<!-- ----------------------- Details -------------------------- -->
-			<h3 id = "contactDetails">Details</h3>
+			<button class="collapsible" id = "contactDetails">
+				Contact and Details
+			</button>
+			
+        	<div class="content">
+	
 				<p>
 					Name:    Mthobisi Mahlangu<br>
 					Born:	 11 December 1993<br>
@@ -111,32 +88,40 @@
 							<a  target = "_blank" href = "http://www.linkedin.com/in/mthobisi-mahlangu">
 							 LinkedIn!</a>			 
 				</p>
-		</div>
-		
-		<!-- =================== EDUCATION AND EXPERIENCE ================ -->		
-		<div Style ="Background-color:Lavender">
+				
+			</div>
+				
+			<!-- =================== EDUCATION AND EXPERIENCE ================ -->		
 			<h2 id = "educationExperience" >Education and Experience</h2>
 			
-				<!-- ------------------- Education ---------------------------- -->
+			<!-- ------------------- Education ---------------------------- -->
+			<button class="collapsible"> Education </button>
+			
+        	<div class="content">
 				<h3>Education</h3>
-					<p>HyperionDev 	<a  target = "_blank" href = "http://www.hyperiondev.com/">
-					  view their website</a><br>
-					  -Software Engineering (Completed 2020) <br><br>
+				
+					<p>
+						HyperionDev 	<a  target = "_blank" href = "http://www.hyperiondev.com/">
+					  	view their website</a><br>
+					  	-Software Engineering (Completed 2020) <br><br>
 				  
-					  Technotrain <a  target = "_blank" href = "http://www.technotrain.co.za/">
-					  view their website</a><br>
+					  	Technotrain <a  target = "_blank" href = "http://www.technotrain.co.za/">
+					  	view their website</a><br>
 				  
-					  -Red Seal Electrician  (Completed 2018)<br>
-					  -Basic PLC Certificate (Completed 2017)<br><br>
+					  	-Red Seal Electrician  (Completed 2018)<br>
+					  	-Basic PLC Certificate (Completed 2017)<br><br>
 				  
-				 	  South West Gauteng College (Roodepoort West Campus)
-				 	  <a  target = "_blank" href = "http://www.swgc.co.za/">
-				 	  view their website</a><br>
-				 	  -Engineering Studies N2 till N6 (Completed 2014)			  
+				 	  	South West Gauteng College (Roodepoort West Campus)
+				 	  	<a  target = "_blank" href = "http://www.swgc.co.za/">
+				 	  	view their website</a><br>
+				 	  	-Engineering Studies N2 till N6 (Completed 2014)			  
 					</p>
-					
+			</div>	
 			<!-- ------------------ PROFESSIONAL EXPERIENCE --------------------- -->
-			<h3>Professional Experience</h3>
+			
+			<button class="collapsible"> Professional Experience </button>
+			
+        	<div class="content">
 			
 			<ul>
 				<!-- ------------------ JOB A ------------------------------------ -->
@@ -187,74 +172,123 @@
 				</ul>
 				</li>
 			</ul>	
+			
 			</div>
 			
 			<!-- =============== ABILITIES, SKILLS AND PROJECTS ------------------------ -->
-			<div Style = "Background-color:Beige">
-			<h2 id = "abilitiesSkillsProjects" >Abilities, Skills and Projects</h2>	
-			<ul>
+			
+			<h2 id = "abilitiesSkillsProjects" > Abilities, Skills and Projects </h2>	
+			
 			
 				<!-- ---------------------- ABILITIES AND SKILLS ------------------------- -->
-				<li><h3>Abilities and Skills</h3>
-					<ul>
-						<li>All Java programming Techniques</li>
-						<li>MySQL database manipulation</li>
-						<li>HTML </li>
-						<li>CSS </li>
-						<li>Python deep programming</li>
-						<li>PLCs(Siemens, Mitsubishi,Delta and Schneider) Ladder and ST</li>
-						<li>Industrial Automation, Production Speed Control via VSDs/VFDs</li>
-					</ul>
-				</li>
+				<button class="collapsible"> Abilities and Skills </button>
+			
+        	     	<div class="content">
 				
+						<ul>
+							<li>All Java programming Techniques</li>
+							<li>MySQL database manipulation</li>
+							<li>SQL</li>
+							<li>HTML </li>
+							<li>CSS </li>
+							<li>Web Development </li>
+							<li>Python deep programming</li>
+							<li>PLCs(Siemens, Mitsubishi,Delta and Schneider) Ladder and ST</li>
+							<li>Industrial Automation, Production Speed Control via VSDs/VFDs</li>
+						</ul>
+					
+					</div>
+							
 				<!-- -------------------- My Projects ---------------------------------- -->
-				<li><h3 id = "myProjects">My Projects</h3>
-					<ul>
+				<button class="collapsible" id = "myProjects" > My Projects	 </button>
+			
+        	    <div class="content">
+        	    
+					<ol>
 						<!-- -------------- First Project ----------------------- -->
-						<li>The project is programmed in Java and makes use of MySQL to communicate<br>
-						 and manipulate data from database. It helps a Construction company<br> store and manage their
+						<li>
+						
+						 The project is programmed in Java and makes use of MySQL to communicate<br>
+						 and manipulate data from a database. It helps a Construction company<br> store and manage their
 						 several projects. A later version in which text files where used 
 						 instead of databases is also contained in the branch.<br>
 						  <a target ="_blank" href =
 						 "https://github.com/Mthobisi-Mastermind/Poised-Construction">
 						 view project </a>
-						 <br></li>
+						 <br>
+						 
+						 </li>
 						 
 						 <!-- ---------------- Second Project -------------------- -->
-						<li>A Pacman-like game programmed in Python.Adjustable speed and easy <br>
-						control using the up,down,right and left keys.<br>
-						<a target ="_blank" href = "https://github.com/Mthobisi-Mastermind/Pygame"
-						> view game</a> </li>
+						<li>
+						
+						 A Pacman-like game programmed in Python. Adjustable speed and easy <br>
+						 control using the up,down,right and left keys.<br>
+						 <a target ="_blank" href = "https://github.com/Mthobisi-Mastermind/Pygame"
+						 > view game</a> 
+						 
+						 </li>
 						
 						<!-- ------------------ Third Project --------------------- -->
-						<li>The project is programmed in Python. It was developed to help the company<br>
+						<li>
+						
+						 The project is programmed in Python. It was developed to help the company<br>
 						 manage their employees' tasks by allowing admin to add a new user and <br>
 						 register new tasks. Other users can only view tasks. <br>
 						<a target ="_blank" href = "https://github.com/Mthobisi-Mastermind/Task-Manager"> view project</a>
+						
 						</li>
 						
 						<!-- ------------------- Fourth Project ------------------- -->
-						<li>An accurate finance calculator programmed in Python. You can <br>
+						<li>
+						
+						An accurate finance calculator programmed in Python. You can <br>
 						calculate monthly bond repayment amount or/and <br>
 						investment amount after chosen period. <br>
 						<a target ="_blank" href = "https://github.com/Mthobisi-Mastermind/Finance-Calculator"> view project</a>
+						
 						</li>
-				</ul>
+						
+					</ol>
+				
 			</div>
 			
 			<!-- =================== TECHNOLOGIES, TOOLS AND TECHNIQUES =================== -->
-			<div Style ="Background-color:Bisque">
+			
 			<h2 id = "technologiesToolsTechniques"> Technologies, Tools and Techniques</h2>	
 			
-				Java OOP | MySQL | HTML | Python | Eclipse | Github | Git <br>
-				UI/UX | UML | ERD | Quality Assurance | jUnit | Version Control <br>
-				Software Testing | Unit Testing | Java Database Programming <br>
-				Computer Science Fundamentals | Sci-kit | Java Design Patterns <br>
-				Siemens PLC | Mitsubishi PLC | Delta PLC | ABB VFDs | Java Text I/O | Software Process<br>
-				Pygame | Hashing and Sorting | Java Collections Frameworks | <br>
-				Agile Application Development | Code Debugging | Project Documentation <br>
-				PLC Programming | Big O Notation | CSS | Siemens VFDs | Data Structures <br>
-				API | Deployment and Maintenance | Data Science | SQL 
+				<div style = "background-color: #f1f1f1;">
+					Java OOP | MySQL | HTML | Python | Eclipse | Github | Git <br>
+					UI/UX | UML | ERD | Quality Assurance | jUnit | Version Control <br>
+					Software Testing | Unit Testing | Java Database Programming <br>
+					Computer Science Fundamentals | Sci-kit | Java Design Patterns <br>
+					Siemens PLC | Mitsubishi PLC | Delta PLC | ABB VFDs | Java Text I/O | Software Process<br>
+					Pygame | Hashing and Sorting | Java Collections Frameworks | <br>
+					Agile Application Development | Code Debugging | Project Documentation <br>
+					PLC Programming | Big O Notation | CSS | Siemens VFDs | Data Structures <br>
+					API | Deployment and Maintenance | Data Science | SQL | Numpy | k-means <br>
+					Clustering | Regression | Machine Learning | Bootstrap | Matplotlib
 				</div>
+				
+		</div>		
+		
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+  				coll[i].addEventListener("click", function() {
+ 				   this.classList.toggle("active");
+ 				   var content = this.nextElementSibling;
+ 				   if (content.style.maxHeight){
+ 				     content.style.maxHeight = null;
+			    } else {
+ 			     content.style.maxHeight = content.scrollHeight + "px";
+   				 } 
+  			});
+			}
+		</script>
+				
 	</body>
+	
 </html>
