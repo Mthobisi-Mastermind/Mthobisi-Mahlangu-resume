@@ -59,8 +59,23 @@ p{
 }
 				
 
-@media screen and (max-height: 450px) {
-	.sidenav {padding-top: 15px;}
-  	.sidenav a {font-size: 18px;}
+@media only screen and (max-height: 800px) {
+	.sidenav {
+		padding-top: 15px;
+		width: 22%;
+		border-radius: 10% 0 0 10%;
+		padding-top: 0;
+	}
+	
+  	.sidenav a {
+  		font-size: 18px;
+		font-size: 15px;
+		text-align: left;
+	}
+	
+	h2{
+	width: 70%;
+	}
+  	
 }
 	
