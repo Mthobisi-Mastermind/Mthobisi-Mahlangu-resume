@@ -11,12 +11,15 @@
 	
 	<body>
 		
+		<span style="color: #57D651; font-size:30px;cursor:pointer; right: 0; 
+		position: fixed;" onclick="openNav()">
+		&#9776; Open Menu</span>
 		
-		<div class="sidenav">
-			<h3 style="text-align:center;">MENU</h3>
+		<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<ul>
   					<li><a href="#myProfile">My Profile</a></li>
-  					<li><a href="#contactDetails">Contact and Details</a></li>
+  					<li><a href="#contactDetails">Details and Contact</a></li>
  		 			<li><a href="#educationExperience">Education and Experience</a></li>
  		 			<li><a href="#abilitiesSkillsProjects">Abilities, Skills and Projects</a></li>
  		 			<li><a href="#myProjects">My Projects</a>	 	
@@ -33,40 +36,41 @@
 			
 			<h3 style = "text-align:center;color:white">
 				  Software Engineer | Electrical Technician at PG Bison <br> 
-				  <img src = "mtho1.jpg" alt = "Image" height ="410" width ="410"> 
+				  <img src = "mtho1.jpg" alt = "Image" height ="250" width ="250"> 
 		    </h3>
 		    
 		    <!-- ================= PROFILE ===================== -->
 		    <h2 id = "myProfile" >My Profile</h2>
 		    	
 			<!-- ---------------------- About me ----------------- -->
+	
 			<button class="collapsible">About me</button>
 			
         	<div class="content">	
 				<p>
-					Hello! Welcome to my web page. Mthobisi is <br>
-					a Java Developer and Python Programmer,<br>
-				    also qualified as an Electrical Technician <br>
-					currently working for PG Bison. For close to 5 years,<br>
-					I have worked with PLCs such as Siemens, Mitsubishi, <br>Schneider, 
+					Hello! Welcome to my web page. Mthobisi is 
+					a Java Developer and Python Programmer,
+				    also qualified as an Electrical Technician
+					currently working for PG Bison. For close to 5 years,
+					I have worked with PLCs such as Siemens, Mitsubishi, Schneider, 
 					Delta and etc.
 					<br><br>
-					Up until recently when I decided to follow my <br>
-					passion which is being the "mastermind" behind the Software.<br>
-					I enrolled for a Software Engineering Bootcamp <br>
-					with Hyperion Development in which we covered Python and Java.<br>(
-					Java OOP, MySQL, Big O Notation,HTML,CSS,Bootstrap and many other <br>
+					Up until recently when I decided to follow my
+					passion which is being the "mastermind" behind the Software.
+					I enrolled for a Software Engineering Bootcamp 
+					with Hyperion Development in which we covered Python and Java.(
+					Java OOP, MySQL, Big O Notation,HTML,CSS,Bootstrap and many other
 					programming techniques ).
 		 
 					<br><br>
 		  
-		 			I love structure and order, and I also stand for quality.<br>
-		 			I spend majority of my time learning new programming skills<br>
-		 			and techniques so to enhance my logical and technical approach<br>
-		 			in the tech industry. I also prefer spending much time on <br>
-		 			fixing little details and optimizing software projects. <br>
-		 			I like working in a team, you'll learn faster and much more.<br>
-		 			As the saying goes: 'two heads  are better than one'. From <br>
+		 			I love structure and order, and I also stand for quality.
+		 			I spend majority of my time learning new programming skills
+		 			and techniques so to enhance my logical and technical approach
+		 			in the tech industry. I also prefer spending much time on
+		 			fixing little details and optimizing software projects.
+		 			I like working in a team, you'll learn faster and much more.
+		 			As the saying goes: 'two heads  are better than one'. From
 		 			the learned techniques I have developed real life projects.
 		 			<a href ="#myProjects">go to projects</a>
 		 		
@@ -74,9 +78,10 @@
 			</div>
 			
 			<!-- ----------------------- Details -------------------------- -->
-			<button class="collapsible" id = "contactDetails">
-				Contact and Details
-			</button>
+				<button class="collapsible" id = "contactDetails">
+					Details & Contact
+				</button>
+			
 			
         	<div class="content">
 	
@@ -104,7 +109,7 @@
 					<p>
 						HyperionDev 	<a  target = "_blank" href = "http://www.hyperiondev.com/">
 					  	view their website</a><br>
-					  	-Software Engineering (Completed 2020) <br><br>
+					  	-Software Engineering Certificate(Completed 2020) <br><br>
 				  
 					  	Technotrain <a  target = "_blank" href = "http://www.technotrain.co.za/">
 					  	view their website</a><br>
@@ -132,12 +137,12 @@
 				 
 				 	<ul>
 						<li>Automation and system sequence programming in PLC systems.</li>
-						<li>Recognized as a fast problem solver and programmer in the following PLC systems:<br>
+						<li>Recognized as a fast problem solver and programmer in the following PLC systems:
   							Siemens, Mitsubishi, Schneider Electric, Delta.(Ladder and ST)</li>
 						<li>Responsible for training and educating upcoming Electrical Apprentices.</li>
 						<li>Formed part of the most performing Engineering team chosen by Management.</li>
 						<li>Individually programmed a PLC program that links to VSDs/VFDs for production speed control.</li>
-						<li>One of the many highlights was when I and a few other employees where invited to dinner with<br>
+						<li>One of the many highlights was when I and a few other employees where invited to dinner with
 						    our CEO and Production Manager as a way of  appreciating our dedication to our daily duties.</li> 
 					</ul>				
 				</li>
@@ -209,14 +214,14 @@
 						<!-- -------------- First Project ----------------------- -->
 						<li>
 						
-						 The project is programmed in Java and makes use of MySQL to communicate<br>
-						 and manipulate data from a database. It helps a Construction company<br> store and manage their
+						 The project is programmed in Java and makes use of MySQL to communicate
+						 and manipulate data from a database. It helps a Construction company store and manage their
 						 several projects. A later version in which text files where used 
-						 instead of databases is also contained in the branch.<br>
+						 instead of databases is also contained in the branch.
 						  <a target ="_blank" href =
 						 "https://github.com/Mthobisi-Mastermind/Poised-Construction">
 						 view project </a>
-						 <br>
+						 
 						 
 						 </li>
 						 
@@ -258,17 +263,24 @@
 			
 			<h2 id = "technologiesToolsTechniques"> Technologies, Tools and Techniques</h2>	
 			
-				<div style = "background-color: #f1f1f1;">
-					Java OOP | MySQL | HTML | Python | Eclipse | Github | Git <br>
-					UI/UX | UML | ERD | Quality Assurance | jUnit | Version Control <br>
-					Software Testing | Unit Testing | Java Database Programming <br>
-					Computer Science Fundamentals | Sci-kit | Java Design Patterns <br>
-					Siemens PLC | Mitsubishi PLC | Delta PLC | ABB VFDs | Java Text I/O | Software Process<br>
-					Pygame | Hashing and Sorting | Java Collections Frameworks | <br>
-					Agile Application Development | Code Debugging | Project Documentation <br>
-					PLC Programming | Big O Notation | CSS | Siemens VFDs | Data Structures <br>
-					API | Deployment and Maintenance | Data Science | SQL | Numpy | k-means <br>
-					Clustering | Regression | Machine Learning | Bootstrap | Matplotlib
+				<div style = "background-color: #8DEB1E;">
+					Java OOP |<span class="divide"> MySQL </span> HTML | <span class="divide">Python</span> |
+					Eclipse | <span class="divide">Github</span> | Git |
+					<span class="divide">UI/UX</span> | UML | <span class="divide">ERD</span>
+					 | Quality Assurance | <span class="divide">jUnit </span> | Version Control |
+					<span class="divide">Software Testing</span> | Unit Testing | <span class="divide">
+					Java Database Programming</span>
+					| Computer Science Fundamentals | <span class="divide">Sci-kit </span>| Java Design Patterns |
+					<span class="divide">Siemens PLC </span>| Mitsubishi PLC | <span class = "divide">
+					Delta PLC</span> | ABB VFDs | <span class="divide">Java Text I/O </span>| Software Process |
+					Pygame | <span class="divide">Hashing and Sorting</span> | Java Collections Frameworks | 
+					<span class="divide">Agile Application Development</span> | Code Debugging | <span class="divide">
+					Project Documentation</span> | 
+					PLC Programming | <span class="divide">Big O Notation</span> | CSS | 
+					<span class="divide">Siemens VFDs</span> | Data Structures |
+					<span class="divide">API</span> | Deployment and Maintenance | <span class="divide">Data Science</span> | SQL | Numpy | k-means 
+					| Clustering | <span class="divide">Regression</span> | Machine Learning | 
+					<span class="divide">Bootstrap</span> | Matplotlib
 				</div>
 				
 		</div>		
@@ -289,6 +301,18 @@
   			});
 			}
 		</script>
+		
+		
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 				
 	</body>
 	

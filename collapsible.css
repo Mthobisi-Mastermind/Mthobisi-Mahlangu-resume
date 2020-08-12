@@ -4,12 +4,23 @@
   color: black;
   cursor: pointer;
   padding: 18px;
-  width: 50%;
+  width: 30%;
   border: none;
   text-align: center;
   outline: none;
   font-size: 15px;
-}
+  margin-left: 35%;
+
+} 
+/*
+.horiCenter{
+  margin: 0;
+  position: absolute;
+  left: 20%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}*/
+
 
 .active, .collapsible:hover {
   background-color: CadetBlue;
@@ -21,6 +32,7 @@
   font-weight: bold;
   float: right;
   margin-left: 5px;
+  text-align: center;
 }
 
 .active:after {
@@ -28,10 +40,11 @@
 }
 
 .content {
+  margin: auto;
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
-  width: 70%
+  width: 40%
 }
