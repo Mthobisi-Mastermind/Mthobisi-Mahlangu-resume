@@ -27,6 +27,7 @@
 }
 
 .collapsible:after {
+	
   content: '\002B';
   color: DarkBlue;
   font-weight: bold;
@@ -40,6 +41,7 @@
 }
 
 .content {
+	
   margin: auto;
   padding: 0 18px;
   max-height: 0;
@@ -47,6 +49,7 @@
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
   width: 40%
+  
 }
 
 @media only screen and (max-width: 1000px){
