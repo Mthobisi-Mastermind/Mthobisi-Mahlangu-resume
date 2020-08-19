@@ -67,7 +67,7 @@ p{
 */			
 
 
-.sidenav {
+.sidenavMenu {
 	
   height: 100%;
   width: 20%;
@@ -82,7 +82,7 @@ p{
   
 }
 
-.sidenav a {
+.sidenavMenu a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -91,11 +91,11 @@ p{
   transition: 0.3s;
 }
 
-.sidenav a:hover {
+.sidenavMenu a:hover {
   color: #f1f1f1;
 }
 
-.sidenav .closebtn {
+.sidenavMenu .closebtn {
   position: absolute;
   top: 0;
   right: 25px;
@@ -123,6 +123,6 @@ p{
 }*/
 
 @media only screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .sidenavMenu {padding-top: 15px;}
+  .sidenavMenu a {font-size: 18px;}
 }
