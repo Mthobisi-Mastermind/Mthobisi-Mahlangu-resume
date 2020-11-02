@@ -1,5 +1,6 @@
 @charset "ISO-8859-1";
 .collapsible {
+	
   background-color: Bisque;
   color: black;
   cursor: pointer;
@@ -11,7 +12,8 @@
   font-size: 15px;
   margin-left: 35%;
 
-} 
+}
+
 /*
 .horiCenter{
   margin: 0;
@@ -20,7 +22,6 @@
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }*/
-
 
 .active, .collapsible:hover {
   background-color: CadetBlue;
