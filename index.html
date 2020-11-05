@@ -65,7 +65,7 @@
 					</nav>
 					
 				
-					<div class="row rowDivision1">
+					<div class="row">
 						<div class="col-sm-12">
 						  <div class="imageContainer" >
 						  		<div class="gallery">	
@@ -103,7 +103,7 @@
 					</div>
 					
 					
-					<div class="row rowDivision1">
+					<div class="row">
 					
 						<div class="col-sm-6 banner-image">
 					
@@ -173,11 +173,12 @@
 			  		
 	<div class ="row rowDivision1">
 	
-	  <div class="col-sm-6 banner-info" id ="contactDetails">
-	  		
-	  				<div class= "details shadow">
+					<div class= "details shadow">
 	  					<h2>Personal Details</h2>
 	  				</div>
+	
+	  <div class="col-sm-6 banner-info" id ="contactDetails">
+	  				
 					Name:    Mthobisi Mahlangu<br>
 					Born:	 11 December 1993<br>
 					Address: 678 Dingiswayo Street, George, Western Cape, South Africa<br>
@@ -346,8 +347,7 @@
 		</div>
 		</div>
 		
-		<div class="container-fluid">
-		<div class = "row rowDivision1">
+		<div class = "row rowDivision3">
 			<div class="details shadow">
 			  <h2 id = "abilitiesSkillsProjects" > 
 			    Abilities, Skills and Projects 
@@ -434,7 +434,7 @@
 			
 			</div>
 		
-		<div class="row rowDivision2">
+		<div class="row rowDivision1">
 		<div class="details shadow">
 			<h2 id = "technologiesToolsTechniques"> Technologies, Tools and Techniques</h2>	
 		</div>	
@@ -457,7 +457,6 @@
 					| Clustering | <span class="divide">Regression</span> | Machine Learning | 
 					<span class="divide">Bootstrap</span> | Matplotlib
 				
-		</div>
 		</div>
 		  		
 	<div class="container-fluid footerColor">
@@ -485,9 +484,33 @@
 		
 		
 	</div>	
+	
+	<button onclick="topFunction()" id="totopBtn" title="Go to top">Top</button>
 			  			
 				</header>
-	</div>			
+	</div>
+	
+	<script>
+//Get the button
+var totopbutton = document.getElementById("totopBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    totopbutton.style.display = "block";
+  } else {
+    totopbutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>			
 	
 </body>
 </html>
