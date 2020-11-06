@@ -24,30 +24,30 @@
 <body>
 
 <div class="container-fluid">
-<header>
+	<header>
 
-			<nav class = "navbar navbar-style">
-						<div class = "container">
-							<div class = "navbar-header">
+		<nav class = "navbar navbar-style">
+		
+			<div class = "container">
+					<div class = "navbar-header">
 							
-								<!-- Hide and open menu icon -->
+						  <!-- Hide and open menu icon -->
 								
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+						  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
 								
-								<span class="displayStyle">MENU</span>
-								<span class="icon-bar"></span>
+						  <span class="displayStyle">MENU</span>
+						  <span class="icon-bar"></span>
 								
-								</button>
+						  </button>
 								
 								<!--Logo image -->
-								<a href =""><img class = "logo" src="programmer.jpg"></a>
+						<a href =""><img class = "logo" src="programmer.jpg"></a>
 								
-							</div>
+					</div>
 									
 							<!-- Navigation bar links -->
 							<div class="collapse navbar-collapse" id="micon">
-								<ul class = "nav navbar-nav navbar-right" >
-								
+								<ul class = "nav navbar-nav navbar-right" >								
 									<li><a href="#myProfile">My Profile</a></li>
   									<li><a href="#contactDetails">Contact</a></li>
  		 							<li><a href="#educationExperience">Education and Experience</a></li>
@@ -56,68 +56,63 @@
  		 							<li><a href="#technologiesToolsTechniques">Technologies</a></li>
 								</ul>
 								
-							</div> 
-							
-							
-										
+							</div> 									
 						</div>
-				
-					</nav>
-					
-				
-					<div class="row">
+					</nav>				
+				<div class="row">
+								
 						<div class="col-sm-12">
 						  <div class="imageContainer" >
-						  		<div class="gallery">	
-								 <img src="conference.jpg" style="height: 450px;" class="img-responsive" alt="Mtho">
-								</div>
-								
-								<!--  div class="w3-center w3-animate-top" -->
-								
-								<div class="text-block1">
-									<span class="label label-success">
-										<strong>Software Engineer</strong>
-									</span>
-									<span class="label label-primary">
-										<strong>Electrical Technician</strong>
-									</span>								
-								</div>
-								
-								<div class="text-block2">Java</div>
-								<div class="text-block3">Python</div>
-								<div class="text-block4">HTML</div>
-								<div class="text-block5">CSS</div>
-								<div class="text-block6">Bootstrap</div>
-							    <div class="text-block7">Javascript</div>
-							    <div class="text-block8">MySQL</div>
-							    <div class="text-block9">Mitsubishi</div>
-							    <div class="text-block10">Siemens</div>
-							    <div class="text-block11">Automation</div>
-							    <div class="text-block12">PLC Programming</div>
-							    <div class="text-block13">Schneider Electric</div>
-								
-						  </div>
-														 
+						<div class="gallery">	
+						   <img src="conference.jpg" style="height: 450px;" class="img-responsive" alt="Mtho">
 						</div>
+								
+						<!--  div class="w3-center w3-animate-top" -->
+								
+						<div class="text-block1">
 						
+							<span class="label label-success">
+							  <strong>Software Engineer</strong>
+							</span>
+							
+							<span class="label label-primary">
+							  <strong>Electrical Technician</strong>
+							</span>								
+						</div>
+								
+						<div class="text-block2">Java</div>
+						<div class="text-block3">Python</div>
+						<div class="text-block4">HTML</div>
+						<div class="text-block5">CSS</div>
+					    <div class="text-block6">Bootstrap</div>
+						<div class="text-block7">Javascript</div>
+						<div class="text-block8">MySQL</div>
+					    <div class="text-block9">Mitsubishi</div>
+						<div class="text-block10">Siemens</div>
+						<div class="text-block11">Automation</div>
+						<div class="text-block12">PLC Programming</div>
+						<div class="text-block13">Schneider Electric</div>
+								
 					</div>
 					
+				</div>	
+									
+			</div>
+								
+			<div class="row">
 					
-					<div class="row">
-					
-						<div class="col-sm-6 banner-image">
-					
+					<div class="col-sm-6 banner-image">
 					
 						<!--img src = "kitchenSet.jpg" class = "img-responsive"-->
-							<div class='centreAlign'>
+						<div class='centreAlign'>
 				    			<a>
 				               	  <img class="img-responsive personalImg img-rounded" src="mtho1.jpg" alt="mtho">
 				            	</a>	
-				  			</div> 
+				  		</div> 
 				  			
-				  		</div>
+				  	</div>
 				  		
-				  		<div class="col-sm-6 banner-info" id="myProfile">
+				 <div class="col-sm-6 banner-info" id="myProfile">
 				  			
 				  			<p>Hello! Welcome to my personal website. Mthobisi is 
 					a Java Developer and Python Programmer,
@@ -149,159 +144,176 @@
 					<!-- Read more or less button -->
 					<button onclick="myFunction()" id="myBtn">Read more</button>
 
-						<script>
-						function myFunction() {
-						  var dots = document.getElementById("dots");
-						  var moreText = document.getElementById("more");
-						  var btnText = document.getElementById("myBtn");
+			<script>
+			    function myFunction() {
+				var dots = document.getElementById("dots");
+				var moreText = document.getElementById("more");
+				var btnText = document.getElementById("myBtn");
 						
-						  if (dots.style.display === "none") {
-						    dots.style.display = "inline";
-						    btnText.innerHTML = "Read more"; 
-						    moreText.style.display = "none";
-						  } else {
-						    dots.style.display = "none";
-						    btnText.innerHTML = "Read less"; 
-						    moreText.style.display = "inline";
-						  }
-						}
-						</script>
-				  			
-				  		
-				  		</div>
-			  		</div>
+				if (dots.style.display === "none") {
+				  dots.style.display = "inline";
+				  btnText.innerHTML = "Read more"; 
+				  moreText.style.display = "none";
+				} else {
+			      dots.style.display = "none";
+				  btnText.innerHTML = "Read less"; 
+				  moreText.style.display = "inline";
+				}
+			}
+		  </script>
+				  				  		
+		</div>
+	</div>
 			  		
 	<div class ="row rowDivision1">
 	
-					<div class= "details shadow">
-	  					<h2>Personal Details</h2>
-	  				</div>
+	  <div class= "details shadow">
+	  	<h2>Personal Details</h2>
+	  </div>
 	
 	  <div class="col-sm-6 banner-info" id ="contactDetails">
 	  				
-					Name:    Mthobisi Mahlangu<br>
-					Born:	 11 December 1993<br>
-					Address: 678 Dingiswayo Street, George, Western Cape, South Africa<br>
-					Tel: +2773 020 8371<br>
-					Email: mthoba2@gmail.com<br>
+		Name:    Mthobisi Mahlangu<br>
+		Born:	 11 December 1993<br>
+		Address: 678 Dingiswayo Street, George, Western Cape, South Africa<br>
+		Tel: +2773 020 8371<br>
+		Email: mthoba2@gmail.com<br>
 						 
-						 <a class = "btn btn-first" 
-						 href = "https://api.whatsapp.com/send?phone=27730208371"
-					 	 target ="_blank">Start chat!
-					 	 <span class="fa fa-whatsapp" 
-						 style="font-size:20px;color:white; 
-						 background-color:lightGreen; padding: 2px;"></span></a>	 
+		<a class = "btn btn-first" 
+		  href = "https://api.whatsapp.com/send?phone=27730208371"
+		  target ="_blank">Start chat!
+		  
+		  <span class="fa fa-whatsapp" 
+			style="font-size:20px;color:white; 
+			background-color:lightGreen; padding: 2px;">			
+		  </span>
+		  
+		</a>	 
 						
-						 <a target = "_blank" 
-						 href = "http://www.linkedin.com/in/mthobisi-mahlangu" 
-						 class="btn btn-primary">LinkedIn
-							</a>
+		<a target = "_blank" 
+		  href = "http://www.linkedin.com/in/mthobisi-mahlangu" 
+		  class="btn btn-primary">LinkedIn
+		</a>
 							
-							<a href= "mailto:mthoba2@gmail.com" 
-							target="_blank" class="btn btn-success"
-							>Email me</a>			 
+		<a href= "mailto:mthoba2@gmail.com" 
+		  target="_blank" class="btn btn-success"
+	    >Email me</a>			 
 	  </div>
-				
+	  
+				<!-- Google map -->
 	  <div class="col-sm-6 banner-image">
 	  	<div class="gallery">
-	  	<iframe width="420" height="300" 
-	  	frameborder="0" scrolling="no" 
-	  	marginheight="0" marginwidth="0" 
-	  	id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=678%20Dingiswayo%20Street%20George,%20Western%20Cape+(Location)&amp;t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://add-map.org/'>embedding a google map</a> <script type='text/javascript' src='https://maps-generator.com
-	  	/google-maps-authorization/script.js?id=58d14bfadf1e2cb47a15cc7293264114f4755981'></script>
+	  	  <iframe width="420" height="300" 
+	  	    frameborder="0" scrolling="no" 
+	  	    marginheight="0" marginwidth="0" 
+	  	    id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;
+	  	    hl=en&amp;q=678%20Dingiswayo%20Street%20George,%20Western%20Cape+(Location)&amp;
+	  	    t=&amp;z=11&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+	  	  </iframe> <a href='https://add-map.org/'>embedding a google map</a>
+	  	   
+	  	  <script type='text/javascript' src='https://maps-generator.com
+	  	    /google-maps-authorization/script.js?id=58d14bfadf1e2cb47a15cc7293264114f4755981'>
+	  	  </script>
+	  	  
 	  	</div>
 	  </div>
 				
 	</div>		 
-	
-	
-	
+		
 	<div class="row shadow rowDivision2">
 		
-		  <div class="details shadow" id="educationExperience">
-			<h3>Education and Professional Experience</h3>
-			
-		  </div>
+	  <div class="details shadow" id="educationExperience">
+		<h3>Education and Professional Experience</h3>			
+	  </div>
 		  
-		  <div class="col-sm-6 banner-info" id ="education">
-				<div class='backColor'><h3>Education</h3></div>
-					<p>
-						HyperionDev 	<a class="btn btn-info" target = "_blank" href = "http://www.hyperiondev.com/">
-					  	view their website</a><br>
-					  	-Software Engineering Certificate(Completed 2020) <br><br>
+	 <div class="col-sm-6 banner-info" id ="education">
+		<div class='backColor'><h3>Education</h3></div>
+			<p>
+				HyperionDev 	<a class="btn btn-info" target = "_blank" href = "http://www.hyperiondev.com/">
+				view their website</a><br>
+			    -Software Engineering Certificate(Completed 2020) <br><br>
 				  
-					  	Technotrain <a  class ="btn btn-info" target = "_blank" href = "http://www.technotrain.co.za/">
-					  	view their website</a><br>
+				Technotrain <a  class ="btn btn-info" target = "_blank" href = "http://www.technotrain.co.za/">
+			    view their website</a><br>
 				  
-					  	-Red Seal Electrician  (Completed 2018)<br>
-					  	-Basic PLC Certificate (Completed 2017)<br><br>
+			    -Red Seal Electrician  (Completed 2018)<br>
+				-Basic PLC Certificate (Completed 2017)<br><br>
 				  
-				 	  	South West Gauteng College (Roodepoort West Campus)
-				 	  	<a  class="btn btn-info" target = "_blank" href = "http://www.swgc.co.za/">
-				 	  	view their website</a><br>
-				 	  	-Engineering Studies N2 till N6 (Completed 2014)			  
-					</p>
+				South West Gauteng College (Roodepoort West Campus)
+				<a  class="btn btn-info" target = "_blank" href = "http://www.swgc.co.za/">
+				view their website</a><br>
+				-Engineering Studies N2 till N6 (Completed 2014)			  
+			</p>
 					
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
    					 <!-- Indicators -->
-    					<ol class="carousel-indicators"> 
-					      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					      <li data-target="#myCarousel" data-slide-to="1"></li>
-					      <li data-target="#myCarousel" data-slide-to="2"></li>
-					    </ol>
+    		<ol class="carousel-indicators"> 
+			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  <li data-target="#myCarousel" data-slide-to="1"></li>
+			  <li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
 					
 					    <!-- Wrapper for slides -->
-					    <div class="carousel-inner" >
-					      <div class="item active" >
-					        			  <div class="gallery">
-			    <a target ="_blank" href="javaCode.jpg">
-			      <img src="javaCode.png" alt="java" height=500 width=450>
-			    </a>
-			    <div class ="desc">Java project communicates with MySQL Database</div>
+			<div class="carousel-inner" >
+			
+			   <div class="item active" >
+			    <div class="gallery">
+			      <a target ="_blank" href="javaCode.jpg">
+			        <img src="javaCode.png" alt="java" height=500 width=450>
+			      </a>		    
+			      <div class ="desc">
+			        Java project communicates with MySQL Database
+			      </div>
 			    </div>
 			  </div>
 										    
-					      <div class="item">
-			<div class="gallery">
-			    <a target="_blank" href="projectDelta.jpg">
+			  <div class="item">
+			    <div class="gallery">
+			      <a target="_blank" href="projectDelta.jpg">
 			      <img src="projectDelta.jpg" alt="delta" style="height:450px; width:400px;">
-			    </a>
+			      </a>
 			    <div class="desc">Delta PLC wired and programmed by myself.</div></div>
 			  </div>
 					     
 					    
-					    <div class="item">
-			<div class="gallery">
-			    <a target ="_blank" href="project.jpg">
-			      <img src="project.jpg" alt="Kitchen" style="height:450px; width:400px;">
-			    </a>
-			    <div class ="desc">Mini Autocontrol project using Siemens Logo</div>
+			  <div class="item">
+			    <div class="gallery">
+			      <a target ="_blank" href="project.jpg">
+			        <img src="project.jpg" alt="Kitchen" style="height:450px; width:400px;">
+			      </a>
+			    
+			      <div class ="desc">
+			        Mini Autocontrol project using Siemens Logo
+			      </div>
+			    
 			    </div>
+			    
 			  </div>
 						
-					    </div>	
+			</div>	
 					
 					    <!-- Left and right controls -->
-					    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-					      <span class="glyphicon glyphicon-chevron-left"></span>
-					      <span class="sr-only">Previous</span>
-					    </a>
-					    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-					      <span class="glyphicon glyphicon-chevron-right"></span>
-					      <span class="sr-only">Next</span>
-					    </a>
-		</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			  <span class="glyphicon glyphicon-chevron-left"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+					    
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			  <span class="glyphicon glyphicon-chevron-right"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
 		</div>
 		
 		<div class="col-sm-6 banner-info">
-		<div class="backColor"><h3>Professional Experience</h3></div>
-			<ul>
+		   <div class="backColor"><h3>Professional Experience</h3></div>
+			    <ul>
 				<!-- ------------------ JOB A ------------------------------------ -->
-				<li><p><h3>Electrical Technician</h3>
-					PG Bison Thesen Sawmilling <a class="btn btn-success" target ="_blank" href = "https://pgbison.co.za/products/thesen">
-				 	view company website  </a>(From 2019-06 till Present)<br><br>
+				   <li><p><h3>Electrical Technician</h3>
+					  PG Bison Thesen Sawmilling <a class="btn btn-success" target ="_blank" href = "https://pgbison.co.za/products/thesen">
+				 	  view company website  </a>(From 2019-06 till Present)<br><br>
 				 
-				 	<ul>
+				 	 <ul>
 						<li>Automation and system sequence programming in PLC systems.</li>
 						<li>Recognized as a fast problem solver and programmer in the following PLC systems:
   							Siemens, Mitsubishi, Schneider Electric, Delta.(Ladder and ST)</li>
@@ -310,48 +322,49 @@
 						<li>Individually programmed a PLC program that links to VSDs/VFDs for production speed control.</li>
 						<li>One of the many highlights was when I and a few other employees where invited to dinner with
 						    our CEO and Production Manager as a way of  appreciating our dedication to our daily duties.</li> 
-					</ul>				
-				</li>
+					 </ul>				
+				   </li>
 				
 				<!-- ------------------------ JOB B --------------------------- -->
-				<li><h3>Electrician</h3>
-					PG Bison Woodline Poles <a class="btn btn-success" target ="_blank" href ="https://pgbison.co.za/products/woodline">
-					view company website </a> (From 2017-09 till 2019-06)<br>
+				   <li><h3>Electrician</h3>
+					  PG Bison Woodline Poles <a class="btn btn-success" target ="_blank" href ="https://pgbison.co.za/products/woodline">
+					  view company website </a> (From 2017-09 till 2019-06)<br>
 				
-					(WAS PROMOTED TO THESEN SAWMILLING)<br><br>
-					<ul>
+					  (WAS PROMOTED TO THESEN SAWMILLING)<br><br>
+					 <ul>
 						<li>Planning and installing new projects from scratch.</li>
 						<li>Fault finding on hard wiring as well as on PLC systems.</li>
 						<li>Responsible for making sure that there is enough and correct spares for daily production and
 						 maintenance.</li>
 						<li>Wired and tested a newly bought machine in one day.</li>
 						<li>Plant pre-inspection on a daily basis.</li>
-					</ul>
-				</li>
+					 </ul>
+				   </li>
 				
 				<!-- ---------------------- JOB C ---------------------------------- -->
-				<li><h3>DStv Installer Assistant</h3>
-					STF Satellites (From 2015-04 till 2016-06)<br>
-					(Went to work at PG Bison for the job I studied for)<br><br>
+				   <li><h3>DStv Installer Assistant</h3>
+					 STF Satellites (From 2015-04 till 2016-06)<br>
+					 (Went to work at PG Bison for the job I studied for)<br><br>
 				
-				<ul>
-					<li>Was chosen as the Team Leader as my Employer is already above 60 years.</li>
-					<li>Searching and rectify signal on the Dish.</li>
-					<li>Linking 2 Decorders together (Xtra View)</li>
-					<li>More than 97% customers satisfied, due to allowing them to be part of every <br>installation 
-						and decision   making.</li>
-					<li>Again making sure that whatever stock we need is bought and delivered/collected on time.</li>
-				</ul>
-				</li>
-			</ul>	
-		</div>
-		</div>
+				     <ul>
+						<li>Was chosen as the Team Leader as my Employer is already above 60 years.</li>
+						<li>Searching and rectify signal on the Dish.</li>
+						<li>Linking 2 Decorders together (Xtra View)</li>
+						<li>More than 97% customers satisfied, due to allowing them to be part of every <br>installation 
+							and decision   making.</li>
+						<li>Again making sure that whatever stock we need is bought and delivered/collected on time.</li>
+				     </ul>
+				     
+				   </li>
+			     </ul>	
+		      </div>
+		    </div>
 		
-		<div class = "row rowDivision3">
-			<div class="details shadow">
-			  <h2 id = "abilitiesSkillsProjects" > 
-			    Abilities, Skills and Projects 
-			  </h2>
+		    <div class = "row rowDivision3">
+			  <div class="details shadow">
+			    <h2 id = "abilitiesSkillsProjects" > 
+			      Abilities, Skills and Projects 
+			    </h2>
 			</div>
 			
 			<div class="col-sm-6 banner-info" id = "myProjects">
@@ -366,65 +379,66 @@
 					<li>Python deep programming</li>
 					<li>PLCs(Siemens, Mitsubishi,Delta and Schneider) Ladder and ST</li>
 					<li>Industrial Automation, Production Speed Control via VSDs/VFDs</li>
-				</ul>	
-				<div class="backColor">
-				 <h3> Projects </h3>
-				</div>
+				</ul>
+					
+				  <div class="backColor">
+				    <h3> Projects </h3>
+				  </div>
+				  
 				<ol>
 				
-						<li>
-							I recently created a user friendly mini-eCommerce website that allows the user
-							to easily explore through products without worrying about data consumption.
-							The website was developed using HTML, JS, CSS as well as Bootstrap.<br>
-							<a class=" btn btn-danger"	target="_blank" href="http://www.yochoice.co.za">visit website</a>
-						</li>
+				  <li>
+					I recently created a user friendly mini-eCommerce website that allows the user
+					to easily explore through products without worrying about data consumption.
+					The website was developed using HTML, JS, CSS as well as Bootstrap.<br>
+					<a class=" btn btn-danger"	target="_blank" href="http://www.yochoice.co.za">visit website</a>
+				  </li>
 						<!-- -------------- First Project ----------------------- -->
-						<li>
+				  <li>
 						
-						 The project is programmed in Java and makes use of MySQL to communicate
-						 and manipulate data from a database. It helps a Construction company store and manage their
-						 several projects. A later version in which text files where used 
-						 instead of databases is also contained in the branch.<br>
-						  <a class="btn btn-first" target ="_blank" href =
-						 "https://github.com/Mthobisi-Mastermind/Poised-Construction">
-						 view project </a>
+				    The project is programmed in Java and makes use of MySQL to communicate
+					and manipulate data from a database. It helps a Construction company store and manage their
+					several projects. A later version in which text files where used 
+					instead of databases is also contained in the branch.<br>
+					<a class="btn btn-first" target ="_blank" href =
+					"https://github.com/Mthobisi-Mastermind/Poised-Construction">
+					view project </a>
 						 
 						 
-						 </li>
+				  </li>
 						 
 						 <!-- ---------------- Second Project -------------------- -->
-						<li>
+				  <li>
 						
-						 A Pacman-like game programmed in Python. Adjustable speed and easy <br>
-						 control using the up,down,right and left keys.<br>
-						 <a class="btn btn-info" target ="_blank" href = "https://github.com/Mthobisi-Mastermind/Pygame"
-						 > view game</a> 
+					A Pacman-like game programmed in Python. Adjustable speed and easy <br>
+					control using the up,down,right and left keys.<br>
+					<a class="btn btn-info" target ="_blank" href = "https://github.com/Mthobisi-Mastermind/Pygame"
+					> view game</a> 
 						 
-						 </li>
+				  </li>
 						
 						<!-- ------------------ Third Project --------------------- -->
-						<li>
+				  <li>
 						
-						 The project is programmed in Python. It was developed to help the company<br>
-						 manage their employees' tasks by allowing admin to add a new user and <br>
-						 register new tasks. Other users can only view tasks. <br>
-						<a class="btn btn-primary" target ="_blank" href = "https://github.com/Mthobisi-Mastermind/Task-Manager"> view project</a>
+				    The project is programmed in Python. It was developed to help the company<br>
+					manage their employees' tasks by allowing admin to add a new user and <br>
+					register new tasks. Other users can only view tasks. <br>
+					<a class="btn btn-primary" target ="_blank" href = "https://github.com/Mthobisi-Mastermind/Task-Manager"> view project</a>
 						
-						</li>
+				  </li>
 						
 						<!-- ------------------- Fourth Project ------------------- -->
-						<li>
+				  <li>
 						
-						An accurate finance calculator programmed in Python. You can <br>
-						calculate monthly bond repayment amount or/and <br>
-						investment amount after chosen period. <br>
-						<a class="btn btn-success" target ="_blank" href = "https://github.com/Mthobisi-Mastermind/Finance-Calculator"> view project</a>
+					An accurate finance calculator programmed in Python. You can <br>
+					calculate monthly bond repayment amount or/and <br>
+					investment amount after chosen period. <br>
+					<a class="btn btn-success" target ="_blank" href = "https://github.com/Mthobisi-Mastermind/Finance-Calculator"> view project</a>
 						
-						</li>
+				  </li>
 						
-					</ol>
+				</ol>
 			</div>
-			
 			
 			<div class="col-sm-6 banner-img">
 			  <div class=" gallery imgPadding">
@@ -432,36 +446,38 @@
 			  </div>
 			</div>
 			
-			</div>
+		  </div>
 		
-		<div class="row rowDivision1">
-		<div class="details shadow">
-			<h2 id = "technologiesToolsTechniques"> Technologies, Tools and Techniques</h2>	
-		</div>	
+		  <div class="row rowDivision1">
+		  
+		    <div class="details shadow">
+			   <h2 id = "technologiesToolsTechniques"> Technologies, Tools and Techniques</h2>	
+		    </div>	
 				
-					Java OOP |<span class="divide"> MySQL </span> HTML | <span class="divide">Python</span> |
-					Eclipse | <span class="divide">Github</span> | Git |
-					<span class="divide">UI/UX</span> | UML | <span class="divide">ERD</span>
-					 | Quality Assurance | <span class="divide">jUnit </span> | Version Control |
-					<span class="divide">Software Testing</span> | Unit Testing | <span class="divide">
-					Java Database Programming</span>
-					| Computer Science Fundamentals | <span class="divide">Sci-kit </span>| Java Design Patterns |
-					<span class="divide">Siemens PLC </span>| Mitsubishi PLC | <span class = "divide">
-					Delta PLC</span> | ABB VFDs | <span class="divide">Java Text I/O </span>| Software Process |
-					Pygame | <span class="divide">Hashing and Sorting</span> | Java Collections Frameworks | 
-					<span class="divide">Agile Application Development</span> | Code Debugging | <span class="divide">
-					Project Documentation</span> | 
-					PLC Programming | <span class="divide">Big O Notation</span> | CSS | 
-					<span class="divide">Siemens VFDs</span> | Data Structures |
-					<span class="divide">API</span> | Deployment and Maintenance | <span class="divide">Data Science</span> | SQL | Numpy | k-means 
-					| Clustering | <span class="divide">Regression</span> | Machine Learning | 
-					<span class="divide">Bootstrap</span> | Matplotlib
+			  Java OOP |<span class="divide"> MySQL </span> HTML | <span class="divide">Python</span> |
+			  Eclipse | <span class="divide">Github</span> | Git |
+			  <span class="divide">UI/UX</span> | UML | <span class="divide">ERD</span>
+			  | Quality Assurance | <span class="divide">jUnit </span> | Version Control |
+			  <span class="divide">Software Testing</span> | Unit Testing | <span class="divide">
+			  Java Database Programming</span>
+			  | Computer Science Fundamentals | <span class="divide">Sci-kit </span>| Java Design Patterns |
+			  <span class="divide">Siemens PLC </span>| Mitsubishi PLC | <span class = "divide">
+			  Delta PLC</span> | ABB VFDs | <span class="divide">Java Text I/O </span>| Software Process |
+			  Pygame | <span class="divide">Hashing and Sorting</span> | Java Collections Frameworks | 
+			  <span class="divide">Agile Application Development</span> | Code Debugging | <span class="divide">
+			  Project Documentation</span> | 
+			  PLC Programming | <span class="divide">Big O Notation</span> | CSS | 
+			  <span class="divide">Siemens VFDs</span> | Data Structures |
+			  <span class="divide">API</span> | Deployment and Maintenance | <span class="divide">Data Science</span> | SQL | Numpy | k-means 
+			  | Clustering | <span class="divide">Regression</span> | Machine Learning | 
+			  <span class="divide">Bootstrap</span> | Matplotlib
 				
-		</div>
+		  </div>
 		  		
-	<div class="container-fluid footerColor">
-		<div class="row shadow">
-			<div class="col-sm-6 banner-info">
+	      <div class="container-fluid footerColor">
+	
+		    <div class="row shadow">
+			  <div class="col-sm-6 banner-info">
 				<div class = "page-footer font-small blue pt-4">
                         <strong>Chat to me!<i class="fa fa-whatsapp" style="font-size:20px;color:white; background-color:lightGreen; padding: 2px;"></i></strong> 
                       
@@ -470,47 +486,46 @@
 					 target ="_blank">Mthobisi</a><br>
 					 
 				</div>
-			</div>
+			  </div>
 			
-			<div class="col-sm-6 banner-info">
+			  <div class="col-sm-6 banner-info">
 				<div class = "page-footer font-small blue pt-4">
 				
 					Copyright[2020-08-23]<br>
 					Created by Mthobisi Mahlangu
 					
 				</div> 
-			</div>		
-		</div>
-		
-		
-	</div>	
+			  </div>		
+		    </div>
+				
+	      </div>	
 	
-	<button onclick="topFunction()" id="totopBtn" title="Go to top">Top</button>
+	      <button onclick="topFunction()" id="totopBtn" title="Go to top">Top</button>
 			  			
-				</header>
+		</header>
 	</div>
 	
 	<script>
-//Get the button
-var totopbutton = document.getElementById("totopBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    totopbutton.style.display = "block";
-  } else {
-    totopbutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>			
+		//Get the button
+		var totopbutton = document.getElementById("totopBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    totopbutton.style.display = "block";
+		  } else {
+		    totopbutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+     </script>			
 	
 </body>
 </html>
